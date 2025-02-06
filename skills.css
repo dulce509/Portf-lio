@@ -1,0 +1,11 @@
+
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (win-width: 768px){
+    .skill{
+        display: grid ;
+        grid-template-columns: 1fr 1fr;
+    }
+}
